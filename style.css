@@ -1,0 +1,112 @@
+body{
+	background: #aaa;
+}
+#tampilan{
+	background: #fbfbff;
+	width: 1000px;
+	height: 700px;
+	margin: auto;
+}
+#header{
+	background: white;
+	height: 100px;
+	width: 1000px;
+	overflow: hidden;
+}
+#teks{
+	background: #dcdcdc;
+	height: 20px;
+	width: 1000px;
+	overflow: hidden;
+}
+#menu{
+	background: #9999ff;
+	height: 30px;
+	width: 1000px;
+
+}
+a{
+	text-decoration: none;
+}
+#menu ul{
+	padding: 0px;
+	margin: 0px;
+}
+#menu ul li{
+	display: inline; margin-left: 20px; line-height: 30px; 
+	font-size: 18px; border: 1px solid blue
+	padding: 3px 15px; border-radius: 10px;background: #989999;
+}
+#menu ul li :hover{
+	background: #990033;
+}
+#menu ul li a{ color: #f0ffff; }
+#isi{
+	background: #a9a9a9;
+	height: 450px;
+	width: 1000px;
+
+}
+#kiri{
+	background: white;
+	height: 450px;
+	width: 700px;
+	float: left;
+}
+#kanan{
+	background: #8fbc8f;
+	height: 450px;
+	width: 300px;
+	float: left;
+}
+#footer{
+	background: #7cic00;
+	height: 20px;
+	width: 1000px;
+	overflow: hidden;
+}
+@keyframes slider{
+	0%{
+		left: 0%:;
+	}
+	20%{
+		left: 0%:;
+	}
+	25%{
+		left: -100%:;
+	}
+	45%{
+		left: -100%:;
+	}
+	50%{
+		left: -200%:;
+	}
+	70%{
+		left: -200%:;
+	}
+	75%{
+		left: -300%:;
+	}
+	95%{
+		left: -300%:;
+	}
+	100%{
+		left: -400%:;
+	}
+}
+#slider{
+	overflow: hidden;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+#slider figure{
+	position: relative;
+	width: 600%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+}
